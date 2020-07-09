@@ -17,7 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    
+   border:0.5px solid black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -43,5 +43,54 @@ table {
 	border-spacing: 0;
 }
 .head {
-    background-image: url(https://www.lfnetworking.org/wp-content/uploads/sites/55/2018/05/bg_lfn.jpgS);
+	background-image: url(https://www.lfnetworking.org/wp-content/uploads/sites/55/2018/05/bg_lfn.jpg);
+	display:flex;
+	flex-direction: column;
+	
+}
+.head h1{
+	font-size: 55px;
+	width: 100%;
+	padding: 0%;
+}
+.head .links{
+	width: 50%;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 2% 0% 3% 0%;
+}
+.Part1 {
+	display: flex;
+	flex-direction: row;
+}
+.Part1 div .img1 {
+	width: 100%;
+	height: 100%;
+	margin: 3% ;
+}
+.Part1 .text {
+	margin: 10% 0% 0% 7%;
+}
+.Part1 .text h3 {
+	font-size: 35px;
+	margin-bottom: 2%;
+}
+.Part1 .text button{
+	padding: 0% 5% 1% 4%;
+}
+.Part1 .text p {
+	margin: 3% 15% 4% 0%;
+}
+.Part2 div img{
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/*.Part2 div img{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
 }
